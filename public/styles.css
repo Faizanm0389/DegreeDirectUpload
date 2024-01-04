@@ -1,0 +1,41 @@
+body{
+    background-color: #1b2845;
+    background-image: linear-gradient(315deg, #1b2845 0%, #274060 74%);
+    
+}
+
+.interface {
+  background-color: #2b4162;
+  background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
+  border-radius: 10px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 30%;
+  height: 70%;
+  margin: 16px auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.interface h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+  color: aliceblue;
+}
+
+.interface h2 {
+  font-size: 1em;
+  margin-bottom: 6px;
+  color: aliceblue;
+}
+
+.interface p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  color: aliceblue;
+}
+
